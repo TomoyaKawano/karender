@@ -1,0 +1,61 @@
+.calendar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .calendar {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .calendar th,
+  .calendar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    vertical-align: top;
+  }
+  
+  .calendar th {
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .date {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .other-month {
+    background-color: #f9f9f9;
+    color: #999;
+  }
+  
+  .notes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .note-input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 4px;
+    font-size: 14px;
+  }
+  
+  .note-form {
+    margin: 0;
+  }
